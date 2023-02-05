@@ -31,3 +31,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.panel {
+    width: 30vh;
+}
+
+.tarjeta {
+    border-bottom: 1px solid #bec1bb;
+}
