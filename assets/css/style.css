@@ -30,12 +30,39 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .panel {
-    width: 30vh;
+    width: 55vh;
 }
 
 .tarjeta {
     border-bottom: 1px solid #bec1bb;
+    height: 80px;
+    display: flex;
+    width: 50vh;
+    align-items:center;
+    justify-content: center;
 }
+
+.chat img {
+    width: 65px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.tarjeta input {
+    color: #fff;
+    background-color: #a491d2;
+    border: none;
+    width: 60%;
+    height: 50%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.boton {
+    height: 15vh;
+}
+
