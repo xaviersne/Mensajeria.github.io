@@ -66,3 +66,29 @@
     height: 15vh;
 }
 
+.foto {
+    display: flex;
+}
+
+.foto img {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.caja_perfil {
+    border-bottom: 1px solid #bec1bb;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.iconos i {
+    width: 5vh;
+}
+
+.estado p{
+    width: 15vh;
+}
