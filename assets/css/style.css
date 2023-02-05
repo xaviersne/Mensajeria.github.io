@@ -1,9 +1,28 @@
 * {
-    width: auto;
-    height: auto;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.contenido img {
+    width: 250px;
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
+    height: 100vh;
     display: flex;
     flex-direction: row;
 }
