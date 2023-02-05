@@ -13,12 +13,17 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: #e8ebe4;
 }
+
+
 
 .texto_contenido {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: x-large;
+    text-align: center;
 }
 
 .container {
